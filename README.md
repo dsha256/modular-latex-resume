@@ -1,1 +1,2 @@
-My LaTeX CV
+### My Modular LaTeX Resume
+
