@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+
+\usepackage{../components/commonheader}
+
+\begin{document}
+
+% BACKGROUND
+\subimport{../components/}{background.tex}
+
+% WORKING EXPERIENCE
+\resumesection{\emoji{briefcase} Work Experience}
+\subimport{../components/experiences/working/}{sorint-lab.tex}
+\subimport{../components/experiences/working/}{epam-systems.tex}
+\subimport{../components/experiences/working}{making-science.tex}
+
+% TEACHING EXPERIENCE
+\resumesection{\emoji{rocket} Teaching Experience}
+\subimport{../components/experiences/teaching/}{ol-academy.tex}
+\subimport{../components/experiences/teaching/}{geolab.tex}
+
+% EDUCATION
+\resumesection{\emoji{books} Education}
+\subimport{../components/education}{btu.tex}
+
+% GENERAL INFO
+\resumesection{\emoji{placard} In Short}
+\subimport{../components/general}{info.tex}
+
+% VOLUNTEERING
+\resumesection{\emoji{mechanical-arm} Volunteering}
+\subimport{../components/volunteering/}{google-developers.tex}
+\subimport{../components/volunteering/}{golang-developers-georgia.tex}
+
+\end{document}
